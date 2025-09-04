@@ -1,0 +1,31 @@
+html,
+body {
+  margin: 0;
+}
+
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 55px;
+
+  background-color: #F55A5A;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: center;
+
+}
+
+.header-img {
+  height: 24px;
+  width: 24px;
+}
+
+.header-text {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
