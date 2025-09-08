@@ -1,6 +1,8 @@
 html,
 body {
   margin: 0;
+  background-color: white;
+  color: black;
 }
 
 .container {
@@ -21,6 +23,7 @@ body {
   gap: 0.5rem;
   justify-content: center;
 
+
 }
 
 .header-img {
@@ -35,6 +38,7 @@ body {
 
 .journal-entry {
   display: flex;
+  margin-bottom: 40px;
 
 }
 
@@ -63,6 +67,7 @@ body {
 .info-container a {
   color: #2B283A;
   font-size: 0.7rem;
+
 }
 
 .info-container a:visited {
