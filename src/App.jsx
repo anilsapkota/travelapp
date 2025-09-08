@@ -16,7 +16,12 @@ function App() {
       googleMapsUrl={entry.googleMapsLink}
       dates={entry.dates}
       text={entry.text}
+
+
       key={entry.id}
+
+    // we can also pass the full object as props like this 
+    //entry = {entry}
 
 
 
